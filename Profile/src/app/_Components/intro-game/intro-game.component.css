@@ -1,0 +1,18 @@
+.container{
+  margin-left: 5%;
+  width: 70%;
+  height: 100%;
+  padding-top: 20px;
+  cursor:cell;
+}
+.arcade-font{
+    color: rgb(107, 2, 2);
+    font-family: 'Press Start 2P', cursive;
+}
+p{
+  margin-top: 5%;
+  color: rgb(107, 2, 2);
+  font-family: 'Press Start 2P', cursive;
+  font-size: small;
+  text-align: start;
+}

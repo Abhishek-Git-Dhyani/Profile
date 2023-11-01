@@ -1,0 +1,5 @@
+<div class="image-container" (wheel)="onScroll($event)">
+  <div *ngFor="let image of images; let i = index" class="image-wrapper" [ngClass]="{'active': currentIndex === i}">
+    <img [src]="image" />
+  </div>
+</div>
